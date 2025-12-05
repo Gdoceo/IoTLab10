@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message TemperatureMessage {
+    optional string id = 1;
+    optional float temp = 2;
+    optional uint32 time = 3;
+}
